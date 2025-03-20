@@ -2,6 +2,8 @@ The process log data containing ad delivery data and
 find aggregate statistics. An application called adserver records for each placement the banner
 that was displayed and the price of the banner. Logs of this application look like the following
 
+
+
 sel:6,ccd1ca23-e502-4ad6-9617-269b7d40cc4c,Banner-71,6.449
 sel:6,ba101079-2729-4459-8e4f-6e2b902027fe,Banner-55,45.32
 sel:6,8d783cf0-4435-4964-be5b-24b95aece7ab,Banner-6,33.848
