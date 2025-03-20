@@ -8,6 +8,7 @@ sel:6,ccd1ca23-e502-4ad6-9617-269b7d40cc4c,Banner-71,6.449
 sel:6,ba101079-2729-4459-8e4f-6e2b902027fe,Banner-55,45.32
 sel:6,8d783cf0-4435-4964-be5b-24b95aece7ab,Banner-6,33.848
 sel:6,b1324a53-6915-47bf-8ee6-46e9ace57fc9,Banner-71,22.221
+
 The format is the following:
 "sel:" indicates the format of the the row
 1st column: event id, 6 in this case means request
@@ -23,6 +24,8 @@ cnt:114,ba101079-2729-4459-8e4f-6e2b902027fe
 cnt:114,8d783cf0-4435-4964-be5b-24b95aece7ab
 cnt:106,8d783cf0-4435-4964-be5b-24b95aece7ab
 cnt:114,b1324a53-6915-47bf-8ee6-46e9ace57fc9
+
+
 The format is the following
 "cnt:" indicates the format of the row
 1st column: event id - 1 means displayed, other values indicate other not better specified events
@@ -54,8 +57,11 @@ This is the result for the data above:
 </Events>
 </Banner>
 </Banners>
+
+
 This is a valid output when as the input you get the two snippets above. Herewith few additional
 clarifications:
+
 1. For Banner-71 you see that revenues are only 6.449 because for the second delivery
 (request id b1324a53-6915-47bf-8ee6-46e9ace57fc9) there is no event with id=1
 2. For Banner-6 there is no revenue because there was no event with id=1
